@@ -1,6 +1,6 @@
 # Tabla con particiones de fecha
 
-Esta consulta procesa 1.7 GB, recorre toda nuestra base de datos buscando los datos que se cumplen según nuestra condición; en este caso estamos buscando todos los registros asignados durante la fecha **2018-07-08.**
+Esta consulta procesa 1.7 GB, recorre toda nuestra base de datos buscando los datos que se cumplen según nuestra condición; en este caso estamos buscando todos los registros distintos durante la fecha **2018-07-08.**
 
 ```sql
 SELECT DISTINCT
@@ -18,7 +18,9 @@ LIMIT 5
 This query will process 1.7 GB when run.
 ```
 
-##### ¿ Pero realmente que fue lo que paso ? 
+
+
+### ¿ Pero realmente que fue lo que paso ? 
 
 Estos resultados para nosotros significa **"dinero"** estamos recorriendo toda la base de datos sin necesidad, ya que solo para algunos registros se cumple la condición.
 
@@ -27,6 +29,8 @@ WHERE data = '20180708'
 ```
 
 El tiempo de ejecución es mayor y estamos consumiendo mas recursos sin necesidad alguna.
+
+
 
 #### Solución
 
@@ -61,8 +65,6 @@ This query will process 0 B when run
 ```
 
 Nuestro proceso tiene un resultado de 0 B por que en este caso no hay registros con respecto a la fecha asignada, no se recorrió registro por registro como lo teníamos en el resultado anterior.
-
-
 
 ##### Conclusión 
 
