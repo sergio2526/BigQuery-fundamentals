@@ -1,14 +1,24 @@
 # **Fundamentals** of **Big Query**
 
-La tematica de este book es la siguiente:
+La temática de este book es la siguiente:
 
 
 
-- [ ] Fundamentos generales de BigQuery
+- [ ] Almacenamiento de datos con BigQuery
 
-- [ ] BigQuery IA 
+  - Linea de comando
 
-- [ ] Pandas y BigQuery
+  - Almacén de datos a través de uniones
+
+  - tablas particionadas por fecha 
+
+    
+
+- [ ] Análisis de datos con BigQuery
+
+- [ ] Machine Learning con BigQuery
+
+- [ ] Python con BigQuery
 
 - [ ] Visualización de datos con BigQuery 
 
