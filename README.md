@@ -28,6 +28,8 @@ Una vez culminado de leer un modulo, te invito a que le des check para que guard
 
 Los módulos estarán orientados a una metodología practica, donde se explicara que se esta haciendo y por que deberíamos hacerlo.
 
+Esta información es obtenida gracias a los laboratorio de **Google Cloud Plataform**, si deseas conocer mas sobre ello o experimentar otros módulos o rutas de aprendizaje, visita [https://www.qwiklabs.com](https://www.qwiklabs.com) 
+
 Si deseas retroalimentar este proyecto, envíame un REQUEST o contactarme por medio de Twitter. (@SergioRubiano25)
 
 Espero les guste y vamos a darle.......
