@@ -91,7 +91,7 @@ Si la utiliza con un modelo de **regresión logística**, la consulta anterior m
 - `accuracy`, `f1_score`
 - `log_loss`, `roc_auc`
 
-Si deseas saber que significan dichas variables, te dejo el glosario de google [https://developers.google.com/machine-learning/glossary/#r]()
+Si deseas saber que significan dichas variables, te dejo el glosario de google [https://developers.google.com/machine-learning/glossary]()
 
 
 
